@@ -2,7 +2,7 @@ import socket
 
 host = socket.gethostname()
 port = 5000  
-
+print('Hello World!')
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM) 
 server_socket.bind((host, port))  
 
